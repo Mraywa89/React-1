@@ -1,0 +1,20 @@
+#root{
+  background-color: black;
+  margin: 0.5%;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  color:red;
+  
+}
+
+.inp{
+  background-color: green;
+}
+
+.lab{
+  color: red;
+
+}
