@@ -13,7 +13,7 @@ const MovieList = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         //list.push({title, description, posterurl, rating});
-        setlist([...list, {title, description, posterurl, rating}])
+        setlist([...list, {title, description, posterurl, rating, id:list.length+1}])
         setfiltered(list)
     };
 
@@ -48,6 +48,7 @@ const MovieList = () => {
                         posterurl={el.posterurl} 
                         rating={el.rating} 
                         key={index}
+                        id = {el.id}
                     />
                 ))}
             </div>
